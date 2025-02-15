@@ -1,0 +1,34 @@
+[0.757s] Invoking command in '/home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/src/teleop_agv_keyboard': PYTHONPATH=/home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/teleop_agv_keyboard/prefix_override:/home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/install/teleop_agv_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_agv_keyboard build --build-base /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/teleop_agv_keyboard/build install --record /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/teleop_agv_keyboard/install.log --single-version-externally-managed
+[0.997s] running egg_info
+[0.997s] creating ../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info
+[0.998s] writing ../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/PKG-INFO
+[0.998s] writing dependency_links to ../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/dependency_links.txt
+[0.998s] writing entry points to ../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/entry_points.txt
+[0.998s] writing requirements to ../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/requires.txt
+[0.998s] writing top-level names to ../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/top_level.txt
+[0.998s] writing manifest file '../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/SOURCES.txt'
+[1.000s] reading manifest file '../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/SOURCES.txt'
+[1.000s] writing manifest file '../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/SOURCES.txt'
+[1.000s] running build
+[1.000s] running build_py
+[1.000s] creating /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/teleop_agv_keyboard/build
+[1.000s] creating /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/teleop_agv_keyboard/build/lib
+[1.000s] copying teleop_agv_keyboard.py -> /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/teleop_agv_keyboard/build/lib
+[1.000s] running install
+[1.000s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.000s]   warnings.warn(
+[1.001s] running install_lib
+[1.001s] copying /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/teleop_agv_keyboard/build/lib/teleop_agv_keyboard.py -> /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/install/teleop_agv_keyboard/lib/python3.10/site-packages
+[1.001s] byte-compiling /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/install/teleop_agv_keyboard/lib/python3.10/site-packages/teleop_agv_keyboard.py to teleop_agv_keyboard.cpython-310.pyc
+[1.002s] running install_data
+[1.003s] creating /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/install/teleop_agv_keyboard/share/ament_index
+[1.003s] creating /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/install/teleop_agv_keyboard/share/ament_index/resource_index
+[1.003s] creating /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/install/teleop_agv_keyboard/share/ament_index/resource_index/packages
+[1.003s] copying resource/teleop_agv_keyboard -> /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/install/teleop_agv_keyboard/share/ament_index/resource_index/packages
+[1.003s] copying package.xml -> /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/install/teleop_agv_keyboard/share/teleop_agv_keyboard
+[1.003s] running install_egg_info
+[1.006s] Copying ../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info to /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/install/teleop_agv_keyboard/lib/python3.10/site-packages/teleop_agv_keyboard-2.3.2-py3.10.egg-info
+[1.006s] running install_scripts
+[1.026s] Installing teleop_agv_keyboard script to /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/install/teleop_agv_keyboard/lib/teleop_agv_keyboard
+[1.026s] writing list of installed files to '/home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/teleop_agv_keyboard/install.log'
+[1.047s] Invoked command in '/home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/src/teleop_agv_keyboard' returned '0': PYTHONPATH=/home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/teleop_agv_keyboard/prefix_override:/home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/install/teleop_agv_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_agv_keyboard build --build-base /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/teleop_agv_keyboard/build install --record /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/teleop_agv_keyboard/install.log --single-version-externally-managed

@@ -1,0 +1,10 @@
+/home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/my_first_pkg/CMakeFiles/uninstall.dir
+/home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/my_first_pkg/CMakeFiles/my_first_pkg_uninstall.dir
+/home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/my_first_pkg/CMakeFiles/my_node.dir
+/home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/my_first_pkg/CMakeFiles/test.dir
+/home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/my_first_pkg/CMakeFiles/edit_cache.dir
+/home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/my_first_pkg/CMakeFiles/rebuild_cache.dir
+/home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/my_first_pkg/CMakeFiles/list_install_components.dir
+/home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/my_first_pkg/CMakeFiles/install.dir
+/home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/my_first_pkg/CMakeFiles/install/local.dir
+/home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/my_first_pkg/CMakeFiles/install/strip.dir

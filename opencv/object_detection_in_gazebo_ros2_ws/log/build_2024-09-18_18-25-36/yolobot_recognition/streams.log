@@ -1,0 +1,45 @@
+[0.310s] Invoking command in '/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/src/packages/yolobot_recognition -DCMAKE_INSTALL_PREFIX=/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/yolobot_recognition
+[0.365s] -- The C compiler identification is GNU 11.4.0
+[0.415s] -- The CXX compiler identification is GNU 11.4.0
+[0.422s] -- Detecting C compiler ABI info
+[0.481s] -- Detecting C compiler ABI info - done
+[0.488s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.488s] -- Detecting C compile features
+[0.488s] -- Detecting C compile features - done
+[0.491s] -- Detecting CXX compiler ABI info
+[0.569s] -- Detecting CXX compiler ABI info - done
+[0.578s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.579s] -- Detecting CXX compile features
+[0.579s] -- Detecting CXX compile features - done
+[0.581s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.748s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.847s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.925s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.955s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.957s] -- Added test 'lint_cmake' to check CMake code style
+[0.959s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.976s] -- Added test 'xmllint' to check XML markup files
+[0.977s] -- Configuring done
+[0.980s] -- Generating done
+[0.980s] -- Build files have been written to: /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_recognition
+[0.985s] Invoked command in '/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/src/packages/yolobot_recognition -DCMAKE_INSTALL_PREFIX=/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/yolobot_recognition
+[0.987s] Invoking command in '/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_recognition -- -j16 -l16
+[1.123s] Invoked command in '/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_recognition -- -j16 -l16
+[1.241s] Invoking command in '/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_recognition
+[1.245s] -- Install configuration: ""
+[1.245s] -- Installing: /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/yolobot_recognition/share/ament_index/resource_index/package_run_dependencies/yolobot_recognition
+[1.245s] -- Installing: /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/yolobot_recognition/share/ament_index/resource_index/parent_prefix_path/yolobot_recognition
+[1.245s] -- Installing: /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/yolobot_recognition/share/yolobot_recognition/environment/ament_prefix_path.sh
+[1.245s] -- Installing: /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/yolobot_recognition/share/yolobot_recognition/environment/ament_prefix_path.dsv
+[1.246s] -- Installing: /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/yolobot_recognition/share/yolobot_recognition/environment/path.sh
+[1.246s] -- Installing: /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/yolobot_recognition/share/yolobot_recognition/environment/path.dsv
+[1.246s] -- Installing: /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.bash
+[1.246s] -- Installing: /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.sh
+[1.246s] -- Installing: /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.zsh
+[1.246s] -- Installing: /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.dsv
+[1.246s] -- Installing: /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/yolobot_recognition/share/yolobot_recognition/package.dsv
+[1.246s] -- Installing: /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/yolobot_recognition/share/ament_index/resource_index/packages/yolobot_recognition
+[1.246s] -- Installing: /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/yolobot_recognition/share/yolobot_recognition/cmake/yolobot_recognitionConfig.cmake
+[1.246s] -- Installing: /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/yolobot_recognition/share/yolobot_recognition/cmake/yolobot_recognitionConfig-version.cmake
+[1.246s] -- Installing: /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/yolobot_recognition/share/yolobot_recognition/package.xml
+[1.248s] Invoked command in '/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_recognition

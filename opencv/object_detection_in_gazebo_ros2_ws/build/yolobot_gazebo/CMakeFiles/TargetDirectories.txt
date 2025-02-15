@@ -1,0 +1,9 @@
+/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_gazebo/CMakeFiles/uninstall.dir
+/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_gazebo/CMakeFiles/yolobot_gazebo_uninstall.dir
+/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_gazebo/CMakeFiles/test.dir
+/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_gazebo/CMakeFiles/edit_cache.dir
+/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_gazebo/CMakeFiles/rebuild_cache.dir
+/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_gazebo/CMakeFiles/list_install_components.dir
+/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_gazebo/CMakeFiles/install.dir
+/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_gazebo/CMakeFiles/install/local.dir
+/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/yolobot_gazebo/CMakeFiles/install/strip.dir

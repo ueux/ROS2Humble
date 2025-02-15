@@ -1,0 +1,3 @@
+[console_scripts]
+teleop_agv_keyboard = teleop_agv_keyboard:main
+

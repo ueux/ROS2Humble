@@ -1,0 +1,36 @@
+[0.663s] Invoking command in '/home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/src/pubsub': PYTHONPATH=/home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/build/pubsub/prefix_override:/home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/install/pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/build/pubsub/build install --record /home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/build/pubsub/install.log --single-version-externally-managed
+[0.862s] running egg_info
+[0.862s] creating ../../build/pubsub/pubsub.egg-info
+[0.863s] writing ../../build/pubsub/pubsub.egg-info/PKG-INFO
+[0.863s] writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt
+[0.863s] writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt
+[0.863s] writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt
+[0.863s] writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt
+[0.863s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[0.864s] reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[0.864s] adding license file 'LICENSE'
+[0.865s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[0.865s] running build
+[0.865s] running build_py
+[0.865s] creating /home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/build/pubsub/build
+[0.865s] creating /home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/build/pubsub/build/lib
+[0.865s] creating /home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/build/pubsub/build/lib/pubsub
+[0.865s] copying pubsub/__init__.py -> /home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/build/pubsub/build/lib/pubsub
+[0.865s] running install
+[0.865s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.865s]   warnings.warn(
+[0.865s] running install_lib
+[0.866s] creating /home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/install/pubsub/lib/python3.10/site-packages/pubsub
+[0.866s] copying /home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/build/pubsub/build/lib/pubsub/__init__.py -> /home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/install/pubsub/lib/python3.10/site-packages/pubsub
+[0.866s] byte-compiling /home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/install/pubsub/lib/python3.10/site-packages/pubsub/__init__.py to __init__.cpython-310.pyc
+[0.866s] running install_data
+[0.867s] creating /home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/install/pubsub/share/ament_index
+[0.867s] creating /home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/install/pubsub/share/ament_index/resource_index
+[0.867s] creating /home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/install/pubsub/share/ament_index/resource_index/packages
+[0.867s] copying resource/pubsub -> /home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/install/pubsub/share/ament_index/resource_index/packages
+[0.867s] copying package.xml -> /home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/install/pubsub/share/pubsub
+[0.867s] running install_egg_info
+[0.868s] Copying ../../build/pubsub/pubsub.egg-info to /home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info
+[0.869s] running install_scripts
+[0.885s] writing list of installed files to '/home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/build/pubsub/install.log'
+[0.903s] Invoked command in '/home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/src/pubsub' returned '0': PYTHONPATH=/home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/build/pubsub/prefix_override:/home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/install/pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/build/pubsub/build install --record /home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/build/pubsub/install.log --single-version-externally-managed

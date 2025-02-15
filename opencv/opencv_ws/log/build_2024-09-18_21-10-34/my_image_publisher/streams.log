@@ -1,0 +1,23 @@
+[0.628s] Invoking command in '/home/navaneeth/Documents/course/opencv/opencv_ws/src/my_image_publisher': PYTHONPATH=/home/navaneeth/Documents/course/opencv/opencv_ws/build/my_image_publisher/prefix_override:/home/navaneeth/Documents/course/opencv/opencv_ws/install/my_image_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_image_publisher build --build-base /home/navaneeth/Documents/course/opencv/opencv_ws/build/my_image_publisher/build install --record /home/navaneeth/Documents/course/opencv/opencv_ws/build/my_image_publisher/install.log --single-version-externally-managed
+[0.840s] running egg_info
+[0.840s] writing ../../build/my_image_publisher/my_image_publisher.egg-info/PKG-INFO
+[0.841s] writing dependency_links to ../../build/my_image_publisher/my_image_publisher.egg-info/dependency_links.txt
+[0.841s] writing entry points to ../../build/my_image_publisher/my_image_publisher.egg-info/entry_points.txt
+[0.841s] writing requirements to ../../build/my_image_publisher/my_image_publisher.egg-info/requires.txt
+[0.841s] writing top-level names to ../../build/my_image_publisher/my_image_publisher.egg-info/top_level.txt
+[0.843s] reading manifest file '../../build/my_image_publisher/my_image_publisher.egg-info/SOURCES.txt'
+[0.844s] writing manifest file '../../build/my_image_publisher/my_image_publisher.egg-info/SOURCES.txt'
+[0.844s] running build
+[0.844s] running build_py
+[0.845s] running install
+[0.845s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.845s]   warnings.warn(
+[0.845s] running install_lib
+[0.846s] running install_data
+[0.847s] running install_egg_info
+[0.849s] removing '/home/navaneeth/Documents/course/opencv/opencv_ws/install/my_image_publisher/lib/python3.10/site-packages/my_image_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[0.849s] Copying ../../build/my_image_publisher/my_image_publisher.egg-info to /home/navaneeth/Documents/course/opencv/opencv_ws/install/my_image_publisher/lib/python3.10/site-packages/my_image_publisher-0.0.0-py3.10.egg-info
+[0.850s] running install_scripts
+[0.867s] Installing image_publisher script to /home/navaneeth/Documents/course/opencv/opencv_ws/install/my_image_publisher/lib/my_image_publisher
+[0.867s] writing list of installed files to '/home/navaneeth/Documents/course/opencv/opencv_ws/build/my_image_publisher/install.log'
+[0.881s] Invoked command in '/home/navaneeth/Documents/course/opencv/opencv_ws/src/my_image_publisher' returned '0': PYTHONPATH=/home/navaneeth/Documents/course/opencv/opencv_ws/build/my_image_publisher/prefix_override:/home/navaneeth/Documents/course/opencv/opencv_ws/install/my_image_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_image_publisher build --build-base /home/navaneeth/Documents/course/opencv/opencv_ws/build/my_image_publisher/build install --record /home/navaneeth/Documents/course/opencv/opencv_ws/build/my_image_publisher/install.log --single-version-externally-managed

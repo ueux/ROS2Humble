@@ -1,0 +1,23 @@
+[1.314s] Invoking command in '/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/src/packages/teleop_agv_keyboard': PYTHONPATH=/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/teleop_agv_keyboard/prefix_override:/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/teleop_agv_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/teleop_agv_keyboard build --build-base /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/teleop_agv_keyboard/build install --record /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/teleop_agv_keyboard/install.log --single-version-externally-managed
+[1.515s] running egg_info
+[1.515s] writing ../../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/PKG-INFO
+[1.516s] writing dependency_links to ../../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/dependency_links.txt
+[1.516s] writing entry points to ../../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/entry_points.txt
+[1.516s] writing requirements to ../../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/requires.txt
+[1.516s] writing top-level names to ../../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/top_level.txt
+[1.517s] reading manifest file '../../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/SOURCES.txt'
+[1.518s] writing manifest file '../../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/SOURCES.txt'
+[1.518s] running build
+[1.518s] running build_py
+[1.518s] running install
+[1.519s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.519s]   warnings.warn(
+[1.519s] running install_lib
+[1.519s] running install_data
+[1.519s] running install_egg_info
+[1.521s] removing '/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/teleop_agv_keyboard/lib/python3.10/site-packages/teleop_agv_keyboard-2.3.2-py3.10.egg-info' (and everything under it)
+[1.521s] Copying ../../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info to /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/teleop_agv_keyboard/lib/python3.10/site-packages/teleop_agv_keyboard-2.3.2-py3.10.egg-info
+[1.521s] running install_scripts
+[1.537s] Installing teleop_agv_keyboard script to /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/teleop_agv_keyboard/lib/teleop_agv_keyboard
+[1.537s] writing list of installed files to '/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/teleop_agv_keyboard/install.log'
+[1.559s] Invoked command in '/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/src/packages/teleop_agv_keyboard' returned '0': PYTHONPATH=/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/teleop_agv_keyboard/prefix_override:/home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/install/teleop_agv_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/teleop_agv_keyboard build --build-base /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/teleop_agv_keyboard/build install --record /home/navaneeth/Documents/course/opencv/object_detection_in_gazebo_ros2_ws/build/teleop_agv_keyboard/install.log --single-version-externally-managed
