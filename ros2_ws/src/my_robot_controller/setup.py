@@ -22,7 +22,9 @@ setup(
         'console_scripts': [
             #to run my node with ros2
             "test_node=my_robot_controller.my_first_node:main",
-            "draw_circle=my_robot_controller.draw_cycle:main"
+            "draw_circle=my_robot_controller.draw_cycle:main",
+            "pose_subscriber=my_robot_controller.pose_subscriber:main",
+
         ],
     },
 )
