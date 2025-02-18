@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/src/my_first_pkg/include
+CXX_INCLUDES = -I/home/vboxuser/Desktop/ROS2Humble/urdf_ws/src/my_first_pkg/include
 
 CXX_FLAGS = -Wall -Wextra -Wpedantic -std=gnu++14
 

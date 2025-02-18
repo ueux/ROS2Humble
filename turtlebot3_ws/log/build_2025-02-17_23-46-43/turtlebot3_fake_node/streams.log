@@ -1,0 +1,78 @@
+[1.680s] Invoking command in '/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/cpp_pubsub:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/pubsub:/home/vboxuser/Desktop/ROS2Humble/ros2_ws/install/my_robot_controller:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node
+[2.494s] -- The C compiler identification is GNU 11.4.0
+[2.764s] -- The CXX compiler identification is GNU 11.4.0
+[2.765s] -- Detecting C compiler ABI info
+[3.582s] -- Detecting C compiler ABI info - done
+[3.587s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.593s] -- Detecting C compile features
+[3.593s] -- Detecting C compile features - done
+[3.604s] -- Detecting CXX compiler ABI info
+[4.217s] -- Detecting CXX compiler ABI info - done
+[4.252s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.252s] -- Detecting CXX compile features
+[4.492s] -- Detecting CXX compile features - done
+[4.492s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.867s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.092s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[6.216s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.221s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.238s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.264s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.302s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.461s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.494s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[6.782s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.788s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.085s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.145s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.235s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.255s] -- Looking for pthread.h
+[7.892s] -- Looking for pthread.h - found
+[7.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.765s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.766s] -- Found Threads: TRUE  
+[8.766s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.965s] -- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)
+[8.967s] -- Found tf2_msgs: 0.25.11 (/opt/ros/humble/share/tf2_msgs/cmake)
+[9.071s] -- Found turtlebot3_msgs: 2.2.3 (/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[14.304s] -- Configuring done
+[14.326s] -- Generating done
+[14.347s] -- Build files have been written to: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/build/turtlebot3_fake_node
+[14.489s] Invoked command in '/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/cpp_pubsub:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/pubsub:/home/vboxuser/Desktop/ROS2Humble/ros2_ws/install/my_robot_controller:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node
+[14.521s] Invoking command in '/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/cpp_pubsub:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/pubsub:/home/vboxuser/Desktop/ROS2Humble/ros2_ws/install/my_robot_controller:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/build/turtlebot3_fake_node -- -j7 -l7
+[14.838s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[420.810s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[424.664s] [100%] Built target turtlebot3_fake_node
+[425.660s] Invoked command in '/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/cpp_pubsub:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/pubsub:/home/vboxuser/Desktop/ROS2Humble/ros2_ws/install/my_robot_controller:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/build/turtlebot3_fake_node -- -j7 -l7
+[426.063s] Invoking command in '/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/cpp_pubsub:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/pubsub:/home/vboxuser/Desktop/ROS2Humble/ros2_ws/install/my_robot_controller:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/build/turtlebot3_fake_node
+[426.308s] -- Install configuration: ""
+[426.311s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[426.341s] -- Set runtime path of "/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node" to ""
+[426.377s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch
+[426.385s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[426.391s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[426.393s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param
+[426.393s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[426.393s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[426.393s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[426.398s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/include/
+[426.400s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node
+[426.412s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[426.433s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[426.442s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[426.449s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[426.451s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[426.453s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[426.455s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[426.456s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[426.458s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[426.462s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[426.466s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[426.467s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[426.474s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[426.482s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[426.487s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[426.489s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[426.491s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[426.493s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[426.527s] Invoked command in '/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/cpp_pubsub:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/pubsub:/home/vboxuser/Desktop/ROS2Humble/ros2_ws/install/my_robot_controller:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vboxuser/Desktop/ROS2Humble/turtlebot3_ws/build/turtlebot3_fake_node

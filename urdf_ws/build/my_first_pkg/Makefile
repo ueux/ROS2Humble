@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/src/my_first_pkg
+CMAKE_SOURCE_DIR = /home/vboxuser/Desktop/ROS2Humble/urdf_ws/src/my_first_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/my_first_pkg
+CMAKE_BINARY_DIR = /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/my_first_pkg/CMakeFiles /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/my_first_pkg//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg/CMakeFiles /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/build/my_first_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

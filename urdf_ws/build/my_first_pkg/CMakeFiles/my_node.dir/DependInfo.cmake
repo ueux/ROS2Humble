@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/navaneeth/Documents/course/Practice_programs/ROS2/urdf_ws/src/my_first_pkg/src/my_node.cpp" "CMakeFiles/my_node.dir/src/my_node.cpp.o" "gcc" "CMakeFiles/my_node.dir/src/my_node.cpp.o.d"
+  "/home/vboxuser/Desktop/ROS2Humble/urdf_ws/src/my_first_pkg/src/my_node.cpp" "CMakeFiles/my_node.dir/src/my_node.cpp.o" "gcc" "CMakeFiles/my_node.dir/src/my_node.cpp.o.d"
   )
 
 # Targets to which this target links.

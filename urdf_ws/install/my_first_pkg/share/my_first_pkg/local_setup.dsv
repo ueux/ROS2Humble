@@ -1,2 +1,1 @@
-source;share/my_first_pkg/environment/ament_prefix_path.sh
-source;share/my_first_pkg/environment/path.sh
+/home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg/ament_cmake_environment_hooks/local_setup.dsv
