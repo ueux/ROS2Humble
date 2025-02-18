@@ -1,0 +1,31 @@
+[0.133s] Invoking command in '/home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/pubsub:/home/vboxuser/Desktop/ROS2Humble/ros2_ws/install/my_robot_controller:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg -- -j7 -l7
+[0.357s] [35m[1mConsolidate compiler generated dependencies of target my_node[0m
+[0.383s] [100%] Built target my_node
+[0.571s] Invoked command in '/home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/pubsub:/home/vboxuser/Desktop/ROS2Humble/ros2_ws/install/my_robot_controller:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg -- -j7 -l7
+[0.820s] Invoking command in '/home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/pubsub:/home/vboxuser/Desktop/ROS2Humble/ros2_ws/install/my_robot_controller:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg
+[0.925s] -- Install configuration: ""
+[0.926s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/lib/my_first_pkg/my_node
+[0.926s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg//launch
+[0.926s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg//launch/gazebo.launch.py
+[0.926s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg//launch/gazebo_world.launch.py
+[0.926s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg//launch/display.launch.py
+[0.927s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg//urdf
+[0.927s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg//urdf/my_robot.urdf
+[0.927s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg//rviz
+[0.927s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg//rviz/config.rviz
+[0.927s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_pkg
+[0.927s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_pkg
+[0.927s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.sh
+[0.927s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.dsv
+[0.927s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/environment/path.sh
+[0.927s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/environment/path.dsv
+[0.927s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/local_setup.bash
+[0.932s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/local_setup.sh
+[0.932s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/local_setup.zsh
+[0.933s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/local_setup.dsv
+[0.933s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/package.dsv
+[0.939s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/ament_index/resource_index/packages/my_first_pkg
+[0.942s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig.cmake
+[0.942s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig-version.cmake
+[0.944s] -- Up-to-date: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/package.xml
+[0.950s] Invoked command in '/home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/pubsub:/home/vboxuser/Desktop/ROS2Humble/ros2_ws/install/my_robot_controller:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg

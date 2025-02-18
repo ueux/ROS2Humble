@@ -1,0 +1,64 @@
+[0.031s] Invoking command in '/home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/pubsub:/home/vboxuser/Desktop/ROS2Humble/ros2_ws/install/my_robot_controller:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard:/opt/ros/humble /usr/bin/cmake /home/vboxuser/Desktop/ROS2Humble/urdf_ws/src/my_first_pkg -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg
+[3.542s] -- The C compiler identification is GNU 11.4.0
+[6.505s] -- The CXX compiler identification is GNU 11.4.0
+[6.892s] -- Detecting C compiler ABI info
+[8.761s] -- Detecting C compiler ABI info - done
+[8.816s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.816s] -- Detecting C compile features
+[8.819s] -- Detecting C compile features - done
+[8.874s] -- Detecting CXX compiler ABI info
+[9.823s] -- Detecting CXX compiler ABI info - done
+[9.932s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.932s] -- Detecting CXX compile features
+[9.932s] -- Detecting CXX compile features - done
+[10.196s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[12.047s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[13.595s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.570s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.709s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.711s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/src/my_first_pkg/include>
+[14.711s] -- Configured cppcheck exclude dirs and/or files: 
+[14.726s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.726s] -- Configured cpplint exclude dirs and/or files: 
+[14.741s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.751s] -- Added test 'lint_cmake' to check CMake code style
+[14.776s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[14.865s] -- Added test 'uncrustify' to check C / C++ code style
+[14.866s] -- Configured uncrustify additional arguments: 
+[14.866s] -- Added test 'xmllint' to check XML markup files
+[14.876s] -- Configuring done
+[14.913s] -- Generating done
+[14.964s] -- Build files have been written to: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg
+[14.990s] Invoked command in '/home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/pubsub:/home/vboxuser/Desktop/ROS2Humble/ros2_ws/install/my_robot_controller:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard:/opt/ros/humble /usr/bin/cmake /home/vboxuser/Desktop/ROS2Humble/urdf_ws/src/my_first_pkg -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg
+[14.991s] Invoking command in '/home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/pubsub:/home/vboxuser/Desktop/ROS2Humble/ros2_ws/install/my_robot_controller:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg -- -j7 -l7
+[15.607s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[16.460s] [100%] [32m[1mLinking CXX executable my_node[0m
+[17.072s] [100%] Built target my_node
+[17.286s] Invoked command in '/home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/pubsub:/home/vboxuser/Desktop/ROS2Humble/ros2_ws/install/my_robot_controller:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg -- -j7 -l7
+[17.447s] Invoking command in '/home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/pubsub:/home/vboxuser/Desktop/ROS2Humble/ros2_ws/install/my_robot_controller:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg
+[17.504s] -- Install configuration: ""
+[17.504s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/lib/my_first_pkg/my_node
+[17.504s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg//launch
+[17.504s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg//launch/gazebo.launch.py
+[17.504s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg//launch/gazebo_world.launch.py
+[17.505s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg//launch/display.launch.py
+[17.505s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg//urdf
+[17.510s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg//urdf/my_robot.urdf
+[17.510s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg//rviz
+[17.510s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg//rviz/config.rviz
+[17.510s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_pkg
+[17.510s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_pkg
+[17.510s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.sh
+[17.510s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/environment/ament_prefix_path.dsv
+[17.512s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/environment/path.sh
+[17.512s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/environment/path.dsv
+[17.512s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/local_setup.bash
+[17.512s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/local_setup.sh
+[17.520s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/local_setup.zsh
+[17.548s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/local_setup.dsv
+[17.548s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/package.dsv
+[17.548s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/ament_index/resource_index/packages/my_first_pkg
+[17.548s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig.cmake
+[17.548s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/cmake/my_first_pkgConfig-version.cmake
+[17.548s] -- Installing: /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/my_first_pkg/share/my_first_pkg/package.xml
+[17.584s] Invoked command in '/home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/Desktop/ROS2Humble/basic_ws/install/pubsub:/home/vboxuser/Desktop/ROS2Humble/ros2_ws/install/my_robot_controller:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg

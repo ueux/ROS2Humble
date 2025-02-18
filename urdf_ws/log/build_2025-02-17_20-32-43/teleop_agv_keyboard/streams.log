@@ -1,0 +1,28 @@
+[6.275s] Invoking command in '/home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/teleop_agv_keyboard': PYTHONPATH=/home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/teleop_agv_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/teleop_agv_keyboard/build
+[7.840s] running develop
+[8.307s] Removing /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard/lib/python3.10/site-packages/teleop-agv-keyboard.egg-link (link to .)
+[8.725s] Invoked command in '/home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/teleop_agv_keyboard' returned '0': PYTHONPATH=/home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/teleop_agv_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/teleop_agv_keyboard/build
+[8.744s] Invoking command in '/home/vboxuser/Desktop/ROS2Humble/urdf_ws/src/teleop_agv_keyboard': PYTHONPATH=/home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/teleop_agv_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_agv_keyboard build --build-base /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/teleop_agv_keyboard/build install --record /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/teleop_agv_keyboard/install.log --single-version-externally-managed install_data --force
+[10.101s] running egg_info
+[10.101s] writing ../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/PKG-INFO
+[10.102s] writing dependency_links to ../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/dependency_links.txt
+[10.102s] writing entry points to ../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/entry_points.txt
+[10.115s] writing requirements to ../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/requires.txt
+[10.117s] writing top-level names to ../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/top_level.txt
+[10.154s] reading manifest file '../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/SOURCES.txt'
+[10.160s] writing manifest file '../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info/SOURCES.txt'
+[10.161s] running build
+[10.162s] running build_py
+[10.166s] running install
+[10.168s] running install_lib
+[10.175s] copying /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/teleop_agv_keyboard/build/lib/teleop_agv_keyboard.py -> /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard/lib/python3.10/site-packages
+[10.179s] byte-compiling /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard/lib/python3.10/site-packages/teleop_agv_keyboard.py to teleop_agv_keyboard.cpython-310.pyc
+[10.179s] running install_data
+[10.180s] copying resource/teleop_agv_keyboard -> /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard/share/ament_index/resource_index/packages
+[10.180s] copying package.xml -> /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard/share/teleop_agv_keyboard
+[10.186s] running install_egg_info
+[10.187s] Copying ../../build/teleop_agv_keyboard/teleop_agv_keyboard.egg-info to /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard/lib/python3.10/site-packages/teleop_agv_keyboard-2.3.2-py3.10.egg-info
+[10.192s] running install_scripts
+[10.267s] Installing teleop_agv_keyboard script to /home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard/lib/teleop_agv_keyboard
+[10.279s] writing list of installed files to '/home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/teleop_agv_keyboard/install.log'
+[10.485s] Invoked command in '/home/vboxuser/Desktop/ROS2Humble/urdf_ws/src/teleop_agv_keyboard' returned '0': PYTHONPATH=/home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/teleop_agv_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/Desktop/ROS2Humble/urdf_ws/install/teleop_agv_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_agv_keyboard build --build-base /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/teleop_agv_keyboard/build install --record /home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/teleop_agv_keyboard/install.log --single-version-externally-managed install_data --force
