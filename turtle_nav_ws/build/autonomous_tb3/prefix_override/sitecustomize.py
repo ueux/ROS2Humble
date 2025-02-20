@@ -1,3 +1,0 @@
-import sys
-sys.real_prefix = sys.prefix
-sys.prefix = sys.exec_prefix = '/home/navaneeth/Documents/course/Practice_programs/ROS2/turtle_nav_ws/install/autonomous_tb3'

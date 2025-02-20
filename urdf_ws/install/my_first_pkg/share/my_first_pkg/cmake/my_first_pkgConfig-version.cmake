@@ -1,1 +1,0 @@
-/home/vboxuser/Desktop/ROS2Humble/urdf_ws/build/my_first_pkg/ament_cmake_core/my_first_pkgConfig-version.cmake

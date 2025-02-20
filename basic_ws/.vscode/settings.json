@@ -1,3 +1,8 @@
 {
-    "cmake.sourceDirectory": "/home/navaneeth/Documents/course/Practice_programs/ROS2/roboai_ws/src/cpp_pubsub"
+    "python.autoComplete.extraPaths": [
+        "/home/vboxuser/Desktop/ros2_ws/build/my_robot_controller",
+        "/home/vboxuser/Desktop/ROS2Humble/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
 }

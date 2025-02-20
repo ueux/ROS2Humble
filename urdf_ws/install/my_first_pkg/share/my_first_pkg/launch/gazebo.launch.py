@@ -1,1 +1,0 @@
-/home/vboxuser/Desktop/ROS2Humble/urdf_ws/src/my_first_pkg/launch/gazebo.launch.py
