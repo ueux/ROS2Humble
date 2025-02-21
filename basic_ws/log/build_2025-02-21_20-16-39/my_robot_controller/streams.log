@@ -1,0 +1,22 @@
+[5.676s] Invoking command in '/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_controller': AMENT_PREFIX_PATH=/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim LD_LIBRARY_PATH=/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_controller/build --no-deps symlink_data --force
+[6.370s] running develop
+[6.687s] running egg_info
+[6.713s] writing my_robot_controller.egg-info/PKG-INFO
+[6.736s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[6.736s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[6.737s] writing requirements to my_robot_controller.egg-info/requires.txt
+[6.737s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[6.771s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[7.206s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[7.207s] running build_ext
+[7.251s] Creating /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[7.265s] Installing draw_circle script to /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller/lib/my_robot_controller
+[7.273s] Installing pose_subscriber script to /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller/lib/my_robot_controller
+[7.282s] Installing test_node script to /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller/lib/my_robot_controller
+[7.290s] Installing turtle_controller script to /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller/lib/my_robot_controller
+[7.290s] 
+[7.291s] Installed /home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_controller
+[7.291s] running symlink_data
+[7.291s] symbolically linking /home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_controller/resource/my_robot_controller -> /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[7.292s] symbolically linking /home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_controller/package.xml -> /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller/share/my_robot_controller
+[7.787s] Invoked command in '/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_controller' returned '0': AMENT_PREFIX_PATH=/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim LD_LIBRARY_PATH=/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_controller/build --no-deps symlink_data --force

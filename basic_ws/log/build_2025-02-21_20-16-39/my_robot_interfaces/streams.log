@@ -1,0 +1,44 @@
+[0.217s] Invoking command in '/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces
+[0.943s] -- The C compiler identification is GNU 11.4.0
+[1.465s] -- The CXX compiler identification is GNU 11.4.0
+[1.474s] -- Detecting C compiler ABI info
+[2.006s] -- Detecting C compiler ABI info - done
+[2.011s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.011s] -- Detecting C compile features
+[2.011s] -- Detecting C compile features - done
+[2.030s] -- Detecting CXX compiler ABI info
+[2.605s] -- Detecting CXX compiler ABI info - done
+[2.609s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.609s] -- Detecting CXX compile features
+[2.610s] -- Detecting CXX compile features - done
+[2.625s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.111s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.286s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.380s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.613s] -- Added test 'lint_cmake' to check CMake code style
+[3.620s] -- Added test 'xmllint' to check XML markup files
+[3.625s] -- Configuring done
+[3.631s] -- Generating done
+[3.634s] -- Build files have been written to: /home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_interfaces
+[3.642s] Invoked command in '/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces
+[3.645s] Invoking command in '/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_interfaces -- -j8 -l8
+[3.746s] Invoked command in '/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_interfaces -- -j8 -l8
+[3.765s] Invoking command in '/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_interfaces
+[3.798s] -- Install configuration: ""
+[3.798s] -- Execute custom install script
+[3.798s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[3.826s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[3.836s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[3.847s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[3.859s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[3.871s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[3.903s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[3.920s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[3.933s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[3.946s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[3.956s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[3.968s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[3.999s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[4.036s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[4.061s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[4.111s] Invoked command in '/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_interfaces

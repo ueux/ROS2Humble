@@ -1,1 +1,2 @@
 # generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim/share/turtlesim/package.sh"

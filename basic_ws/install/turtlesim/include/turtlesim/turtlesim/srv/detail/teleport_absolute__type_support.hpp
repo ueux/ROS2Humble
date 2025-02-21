@@ -1,0 +1,1 @@
+/home/ueux/Desktop/ROS2Humble/basic_ws/build/turtlesim/rosidl_generator_cpp/turtlesim/srv/detail/teleport_absolute__type_support.hpp

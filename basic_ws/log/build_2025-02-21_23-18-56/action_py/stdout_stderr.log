@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing action_py.egg-info/PKG-INFO
+writing dependency_links to action_py.egg-info/dependency_links.txt
+writing entry points to action_py.egg-info/entry_points.txt
+writing requirements to action_py.egg-info/requires.txt
+writing top-level names to action_py.egg-info/top_level.txt
+reading manifest file 'action_py.egg-info/SOURCES.txt'
+writing manifest file 'action_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/lib/python3.10/site-packages/action-py.egg-link (link to .)
+Installing count_until_client script to /home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/lib/action_py
+Installing count_until_server script to /home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/lib/action_py
+
+Installed /home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py
+running symlink_data
+symbolically linking /home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py/resource/action_py -> /home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/share/ament_index/resource_index/packages
+symbolically linking /home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py/package.xml -> /home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/share/action_py

@@ -1,0 +1,6 @@
+-- Configuring incomplete, errors occurred!
+See also "/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[31mCMake Error at CMakeLists.txt:15:
+  Parse error.  Expected a command name, got unquoted argument with text "{".
+
+[0m

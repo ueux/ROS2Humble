@@ -1,0 +1,1 @@
+/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_package/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,1 @@
+/home/ueux/Desktop/ROS2Humble/basic_ws/build/turtlesim/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,20 @@
+[1.981s] Invoking command in '/home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py': CMAKE_PREFIX_PATH=/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_package:/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim PYTHONPATH=/home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py/build --no-deps symlink_data --force
+[2.815s] running develop
+[3.049s] running egg_info
+[3.050s] writing action_py.egg-info/PKG-INFO
+[3.054s] writing dependency_links to action_py.egg-info/dependency_links.txt
+[3.076s] writing entry points to action_py.egg-info/entry_points.txt
+[3.077s] writing requirements to action_py.egg-info/requires.txt
+[3.082s] writing top-level names to action_py.egg-info/top_level.txt
+[3.094s] reading manifest file 'action_py.egg-info/SOURCES.txt'
+[3.095s] writing manifest file 'action_py.egg-info/SOURCES.txt'
+[3.105s] running build_ext
+[3.105s] Creating /home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/lib/python3.10/site-packages/action-py.egg-link (link to .)
+[3.108s] Installing count_until_client script to /home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/lib/action_py
+[3.113s] Installing count_until_server script to /home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/lib/action_py
+[3.114s] 
+[3.114s] Installed /home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py
+[3.114s] running symlink_data
+[3.117s] symbolically linking /home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py/resource/action_py -> /home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/share/ament_index/resource_index/packages
+[3.119s] symbolically linking /home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py/package.xml -> /home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/share/action_py
+[3.218s] Invoked command in '/home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py' returned '0': CMAKE_PREFIX_PATH=/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_package:/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim PYTHONPATH=/home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py/build --no-deps symlink_data --force

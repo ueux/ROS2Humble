@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:14 (find_package):
+  By not providing "Findament_default_generators.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "ament_default_generators", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "ament_default_generators" with any of the following names:
+
+    ament_default_generatorsConfig.cmake
+    ament_default_generators-config.cmake
+
+  Add the installation prefix of "ament_default_generators" to
+  CMAKE_PREFIX_PATH or set "ament_default_generators_DIR" to a directory
+  containing one of the above files.  If "ament_default_generators" provides
+  a separate development package or SDK, be sure it has been installed.
+
+[0m

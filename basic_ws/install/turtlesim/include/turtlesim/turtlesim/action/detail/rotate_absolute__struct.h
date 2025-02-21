@@ -1,0 +1,1 @@
+/home/ueux/Desktop/ROS2Humble/basic_ws/build/turtlesim/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__struct.h

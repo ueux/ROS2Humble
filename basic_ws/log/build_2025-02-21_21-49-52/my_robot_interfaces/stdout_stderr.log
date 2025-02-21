@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:14:
+  Parse error.  Expected "(", got identifier with text "package".
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".

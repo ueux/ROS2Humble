@@ -1,0 +1,24 @@
+[4.019s] Invoking command in '/home/ueux/Desktop/ROS2Humble/basic_ws/src/action_py': CMAKE_PREFIX_PATH=/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_package:/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim PYTHONPATH=/home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/action_py build --build-base /home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py/build install --record /home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py/install.log --single-version-externally-managed install_data
+[4.492s] running egg_info
+[4.498s] writing ../../build/action_py/action_py.egg-info/PKG-INFO
+[4.503s] writing dependency_links to ../../build/action_py/action_py.egg-info/dependency_links.txt
+[4.504s] writing entry points to ../../build/action_py/action_py.egg-info/entry_points.txt
+[4.517s] writing requirements to ../../build/action_py/action_py.egg-info/requires.txt
+[4.529s] writing top-level names to ../../build/action_py/action_py.egg-info/top_level.txt
+[4.544s] reading manifest file '../../build/action_py/action_py.egg-info/SOURCES.txt'
+[4.548s] writing manifest file '../../build/action_py/action_py.egg-info/SOURCES.txt'
+[4.549s] running build
+[4.549s] running build_py
+[4.550s] copying action_py/count_until_server.py -> /home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py/build/lib/action_py
+[4.554s] running install
+[4.557s] running install_lib
+[4.569s] copying /home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py/build/lib/action_py/count_until_server.py -> /home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/lib/python3.10/site-packages/action_py
+[4.574s] byte-compiling /home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/lib/python3.10/site-packages/action_py/count_until_server.py to count_until_server.cpython-310.pyc
+[4.575s] running install_data
+[4.575s] running install_egg_info
+[4.577s] removing '/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/lib/python3.10/site-packages/action_py-0.0.0-py3.10.egg-info' (and everything under it)
+[4.582s] Copying ../../build/action_py/action_py.egg-info to /home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/lib/python3.10/site-packages/action_py-0.0.0-py3.10.egg-info
+[4.590s] running install_scripts
+[4.676s] Installing count_until_server script to /home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/lib/action_py
+[4.679s] writing list of installed files to '/home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py/install.log'
+[4.778s] Invoked command in '/home/ueux/Desktop/ROS2Humble/basic_ws/src/action_py' returned '0': CMAKE_PREFIX_PATH=/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_package:/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim PYTHONPATH=/home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/action_py build --build-base /home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py/build install --record /home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py/install.log --single-version-externally-managed install_data

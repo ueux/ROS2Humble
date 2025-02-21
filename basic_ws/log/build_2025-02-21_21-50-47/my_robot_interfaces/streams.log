@@ -1,0 +1,8 @@
+[0.138s] Invoking command in '/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces
+[0.176s] [31mCMake Error at CMakeLists.txt:14:
+[0.177s]   Parse error.  Expected "(", got identifier with text "package".
+[0.177s] 
+[0.177s] [0m
+[0.177s] -- Configuring incomplete, errors occurred!
+[0.177s] See also "/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[0.197s] Invoked command in '/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces
