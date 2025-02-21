@@ -1,1 +1,0 @@
-/home/vboxuser/Desktop/ROS2Humble/ros2_ws/src/my_robot_controller/setup.py
