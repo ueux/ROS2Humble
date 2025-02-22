@@ -1,0 +1,213 @@
+[0.882s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/ueux/Desktop/ROS2Humble/basic_ws']
+[0.883s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/ueux/Desktop/ROS2Humble/basic_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7767684689d0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7767685d5660>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7767685d5660>>)
+[2.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.331s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ueux/Desktop/ROS2Humble/basic_ws'
+[2.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws) by extensions ['ignore', 'ignore_ament_install']
+[2.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws) by extension 'ignore'
+[2.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws) by extension 'ignore_ament_install'
+[2.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws) by extensions ['colcon_pkg']
+[2.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws) by extension 'colcon_pkg'
+[2.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws) by extensions ['colcon_meta']
+[2.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws) by extension 'colcon_meta'
+[2.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws) by extensions ['ros']
+[2.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws) by extension 'ros'
+[2.441s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws) by extensions ['cmake', 'python']
+[2.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws) by extension 'cmake'
+[2.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws) by extension 'python'
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws) by extensions ['python_setup_py']
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws) by extension 'python_setup_py'
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/build) by extension 'ignore'
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/build) ignored
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/install) by extension 'ignore'
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/install) ignored
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/log) by extension 'ignore'
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/log) ignored
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src) by extension 'ignore'
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src) by extension 'ignore_ament_install'
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src) by extensions ['colcon_pkg']
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src) by extension 'colcon_pkg'
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src) by extensions ['colcon_meta']
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src) by extension 'colcon_meta'
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src) by extensions ['ros']
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src) by extension 'ros'
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src) by extensions ['cmake', 'python']
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src) by extension 'cmake'
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src) by extension 'python'
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src) by extensions ['python_setup_py']
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src) by extension 'python_setup_py'
+[2.449s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/action_py) by extensions ['ignore', 'ignore_ament_install']
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/action_py) by extension 'ignore'
+[2.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/action_py) by extension 'ignore_ament_install'
+[2.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/action_py) by extensions ['colcon_pkg']
+[2.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/action_py) by extension 'colcon_pkg'
+[2.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/action_py) by extensions ['colcon_meta']
+[2.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/action_py) by extension 'colcon_meta'
+[2.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/action_py) by extensions ['ros']
+[2.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/action_py) by extension 'ros'
+[2.465s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ueux/Desktop/ROS2Humble/basic_ws/src/action_py' with type 'ros.ament_python' and name 'action_py'
+[2.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[2.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_package) by extension 'ignore'
+[2.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_package) by extension 'ignore_ament_install'
+[2.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_package) by extensions ['colcon_pkg']
+[2.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_package) by extension 'colcon_pkg'
+[2.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_package) by extensions ['colcon_meta']
+[2.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_package) by extension 'colcon_meta'
+[2.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_package) by extensions ['ros']
+[2.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_package) by extension 'ros'
+[2.468s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_package' with type 'ros.ament_cmake' and name 'my_package'
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_controller) by extension 'ignore'
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_controller) by extension 'ignore_ament_install'
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_controller) by extensions ['colcon_pkg']
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_controller) by extension 'colcon_pkg'
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_controller) by extensions ['colcon_meta']
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_controller) by extension 'colcon_meta'
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_controller) by extensions ['ros']
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_controller) by extension 'ros'
+[2.473s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[2.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_interfaces) by extension 'ignore'
+[2.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_interfaces) by extension 'ignore_ament_install'
+[2.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_interfaces) by extensions ['colcon_pkg']
+[2.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_interfaces) by extension 'colcon_pkg'
+[2.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_interfaces) by extensions ['colcon_meta']
+[2.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_interfaces) by extension 'colcon_meta'
+[2.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_interfaces) by extensions ['ros']
+[2.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_interfaces) by extension 'ros'
+[2.476s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ueux/Desktop/ROS2Humble/basic_ws/src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[2.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[2.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials) by extension 'ignore'
+[2.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials) by extension 'ignore_ament_install'
+[2.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials) by extensions ['colcon_pkg']
+[2.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials) by extension 'colcon_pkg'
+[2.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials) by extensions ['colcon_meta']
+[2.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials) by extension 'colcon_meta'
+[2.480s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials) by extensions ['ros']
+[2.480s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials) by extension 'ros'
+[2.480s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials) by extensions ['cmake', 'python']
+[2.480s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials) by extension 'cmake'
+[2.480s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials) by extension 'python'
+[2.481s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials) by extensions ['python_setup_py']
+[2.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials) by extension 'python_setup_py'
+[2.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[2.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[2.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials/ros_tutorials) ignored
+[2.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[2.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[2.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials/roscpp_tutorials) ignored
+[2.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[2.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[2.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials/rospy_tutorials) ignored
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials/turtlesim) by extension 'ignore'
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials/turtlesim) by extensions ['ros']
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials/turtlesim) by extension 'ros'
+[2.489s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ueux/Desktop/ROS2Humble/basic_ws/src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3) by extension 'ignore'
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3) by extension 'ignore_ament_install'
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3) by extensions ['colcon_pkg']
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3) by extension 'colcon_pkg'
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3) by extensions ['colcon_meta']
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3) by extension 'colcon_meta'
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3) by extensions ['ros']
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3) by extension 'ros'
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3) by extensions ['cmake', 'python']
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3) by extension 'cmake'
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3) by extension 'python'
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3) by extensions ['python_setup_py']
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3) by extension 'python_setup_py'
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3) by extension 'ignore'
+[2.495s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3) by extension 'ignore_ament_install'
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3) by extensions ['colcon_pkg']
+[2.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3) by extension 'colcon_pkg'
+[2.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3) by extensions ['colcon_meta']
+[2.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3) by extension 'colcon_meta'
+[2.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3) by extensions ['ros']
+[2.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3) by extension 'ros'
+[2.505s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3' with type 'ros.ament_cmake' and name 'turtlebot3'
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_bringup) by extension 'ignore'
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_bringup) by extension 'ignore_ament_install'
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_bringup) by extensions ['colcon_pkg']
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_bringup) by extension 'colcon_pkg'
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_bringup) by extensions ['colcon_meta']
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_bringup) by extension 'colcon_meta'
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_bringup) by extensions ['ros']
+[2.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_bringup) by extension 'ros'
+[2.510s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_bringup' with type 'ros.ament_cmake' and name 'turtlebot3_bringup'
+[2.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_cartographer) by extension 'ignore'
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_cartographer) by extension 'ignore_ament_install'
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_cartographer) by extensions ['colcon_pkg']
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_cartographer) by extension 'colcon_pkg'
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_cartographer) by extensions ['colcon_meta']
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_cartographer) by extension 'colcon_meta'
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_cartographer) by extensions ['ros']
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_cartographer) by extension 'ros'
+[2.515s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_cartographer' with type 'ros.ament_cmake' and name 'turtlebot3_cartographer'
+[2.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_description) by extensions ['ignore', 'ignore_ament_install']
+[2.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_description) by extension 'ignore'
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_description) by extension 'ignore_ament_install'
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_description) by extensions ['colcon_pkg']
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_description) by extension 'colcon_pkg'
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_description) by extensions ['colcon_meta']
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_description) by extension 'colcon_meta'
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_description) by extensions ['ros']
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_description) by extension 'ros'
+[2.524s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_description' with type 'ros.ament_cmake' and name 'turtlebot3_description'
+[2.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_example) by extensions ['ignore', 'ignore_ament_install']
+[2.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_example) by extension 'ignore'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_example) by extension 'ignore_ament_install'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_example) by extensions ['colcon_pkg']
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_example) by extension 'colcon_pkg'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_example) by extensions ['colcon_meta']
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_example) by extension 'colcon_meta'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_example) by extensions ['ros']
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_example) by extension 'ros'
+[2.543s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_example' with type 'ros.ament_python' and name 'turtlebot3_example'
+[2.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_navigation2) by extension 'ignore'
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_navigation2) by extension 'ignore_ament_install'
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_navigation2) by extensions ['colcon_pkg']
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_navigation2) by extension 'colcon_pkg'
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_navigation2) by extensions ['colcon_meta']
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_navigation2) by extension 'colcon_meta'
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_navigation2) by extensions ['ros']
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_navigation2) by extension 'ros'
+[2.564s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_navigation2' with type 'ros.ament_cmake' and name 'turtlebot3_navigation2'
+[2.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_node) by extensions ['ignore', 'ignore_ament_install']
+[2.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_node) by extension 'ignore'
+[2.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_node) by extension 'ignore_ament_install'
+[2.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_node) by extensions ['colcon_pkg']
+[2.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_node) by extension 'colcon_pkg'
+[2.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_node) by extensions ['colcon_meta']
+[2.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_node) by extension 'colcon_meta'
+[2.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_node) by extensions ['ros']
+[2.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_node) by extension 'ros'
+[2.575s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_node' with type 'ros.ament_cmake' and name 'turtlebot3_node'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_teleop) by extensions ['ignore', 'ignore_ament_install']
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_teleop) by extension 'ignore'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_teleop) by extension 'ignore_ament_install'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_teleop) by extensions ['colcon_pkg']
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_teleop) by extension 'colcon_pkg'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_teleop) by extensions ['colcon_meta']
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_teleop) by extension 'colcon_meta'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_teleop) by extensions ['ros']
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_teleop) by extension 'ros'
+[2.576s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3_teleop' with type 'ros.ament_python' and name 'turtlebot3_teleop'
+[2.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

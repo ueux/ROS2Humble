@@ -1,0 +1,41 @@
+[0.319s] Invoking command in '/home/ueux/Desktop/ROS2Humble/basic_ws/build/turtlebot3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py:/opt/ros/humble /usr/bin/cmake /home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3
+[2.179s] -- The C compiler identification is GNU 11.4.0
+[3.207s] -- The CXX compiler identification is GNU 11.4.0
+[3.253s] -- Detecting C compiler ABI info
+[3.971s] -- Detecting C compiler ABI info - done
+[3.981s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.995s] -- Detecting C compile features
+[4.017s] -- Detecting C compile features - done
+[4.055s] -- Detecting CXX compiler ABI info
+[4.403s] -- Detecting CXX compiler ABI info - done
+[4.426s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.426s] -- Detecting CXX compile features
+[4.426s] -- Detecting CXX compile features - done
+[4.670s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.129s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.327s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.595s] -- Configuring done
+[5.600s] -- Generating done
+[5.606s] -- Build files have been written to: /home/ueux/Desktop/ROS2Humble/basic_ws/build/turtlebot3
+[5.649s] Invoked command in '/home/ueux/Desktop/ROS2Humble/basic_ws/build/turtlebot3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py:/opt/ros/humble /usr/bin/cmake /home/ueux/Desktop/ROS2Humble/basic_ws/src/turtlebot3/turtlebot3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3
+[5.656s] Invoking command in '/home/ueux/Desktop/ROS2Humble/basic_ws/build/turtlebot3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py:/opt/ros/humble /usr/bin/cmake --build /home/ueux/Desktop/ROS2Humble/basic_ws/build/turtlebot3 -- -j8 -l8
+[5.922s] Invoked command in '/home/ueux/Desktop/ROS2Humble/basic_ws/build/turtlebot3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py:/opt/ros/humble /usr/bin/cmake --build /home/ueux/Desktop/ROS2Humble/basic_ws/build/turtlebot3 -- -j8 -l8
+[5.961s] Invoking command in '/home/ueux/Desktop/ROS2Humble/basic_ws/build/turtlebot3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py:/opt/ros/humble /usr/bin/cmake --install /home/ueux/Desktop/ROS2Humble/basic_ws/build/turtlebot3
+[5.991s] -- Install configuration: ""
+[5.997s] -- Execute custom install script
+[5.997s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3/share/ament_index/resource_index/package_run_dependencies/turtlebot3
+[6.024s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3/share/ament_index/resource_index/parent_prefix_path/turtlebot3
+[6.094s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3/share/turtlebot3/environment/ament_prefix_path.sh
+[6.115s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3/share/turtlebot3/environment/ament_prefix_path.dsv
+[6.130s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3/share/turtlebot3/environment/path.sh
+[6.168s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3/share/turtlebot3/environment/path.dsv
+[6.222s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3/share/turtlebot3/local_setup.bash
+[6.274s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3/share/turtlebot3/local_setup.sh
+[6.316s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3/share/turtlebot3/local_setup.zsh
+[6.327s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3/share/turtlebot3/local_setup.dsv
+[6.341s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3/share/turtlebot3/package.dsv
+[6.362s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3/share/ament_index/resource_index/packages/turtlebot3
+[6.385s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3/share/turtlebot3/cmake/turtlebot3Config.cmake
+[6.397s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3/share/turtlebot3/cmake/turtlebot3Config-version.cmake
+[6.431s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3/share/turtlebot3/package.xml
+[6.497s] Invoked command in '/home/ueux/Desktop/ROS2Humble/basic_ws/build/turtlebot3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py:/opt/ros/humble /usr/bin/cmake --install /home/ueux/Desktop/ROS2Humble/basic_ws/build/turtlebot3
