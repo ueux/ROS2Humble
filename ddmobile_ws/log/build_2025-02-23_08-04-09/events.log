@@ -1,0 +1,181 @@
+[0.000000] (-) TimerEvent: {}
+[0.013730] (mobile_dd_robot) JobQueued: {'identifier': 'mobile_dd_robot', 'dependencies': OrderedDict()}
+[0.014401] (mobile_dd_robot) JobStarted: {'identifier': 'mobile_dd_robot'}
+[0.123650] (-) TimerEvent: {}
+[0.296521] (-) TimerEvent: {}
+[0.403240] (-) TimerEvent: {}
+[0.528036] (-) TimerEvent: {}
+[0.614348] (mobile_dd_robot) JobProgress: {'identifier': 'mobile_dd_robot', 'progress': 'cmake'}
+[0.627729] (-) TimerEvent: {}
+[0.733571] (mobile_dd_robot) JobProgress: {'identifier': 'mobile_dd_robot', 'progress': 'build'}
+[0.737081] (-) TimerEvent: {}
+[0.744624] (mobile_dd_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ueux/Desktop/ROS2Humble/ddmobile_ws/build/mobile_dd_robot', '--', '-j8', '-l8'], 'cwd': '/home/ueux/Desktop/ROS2Humble/ddmobile_ws/build/mobile_dd_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ueux'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim/lib:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ueux'), ('OLDPWD', '/home/ueux/Desktop/ROS2Humble/ddmobile_ws/src/mobile_dd_robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2534'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ueux/Desktop/ROS2Humble/basic_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ueux'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ueux'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ueux:@/tmp/.ICE-unix/2499,unix/ueux:/tmp/.ICE-unix/2499'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/20d5e28d_ec33_4714_a1c0_8dcc790e5ff0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XEYD22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim:/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ueux/Desktop/ROS2Humble/ddmobile_ws/build/mobile_dd_robot'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_controller:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/lib/python3.10/site-packages:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim:/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_package:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py:/opt/ros/humble')]), 'shell': False}
+[0.912816] (-) TimerEvent: {}
+[1.020748] (-) TimerEvent: {}
+[1.193241] (-) TimerEvent: {}
+[1.307573] (-) TimerEvent: {}
+[1.436762] (-) TimerEvent: {}
+[1.549975] (-) TimerEvent: {}
+[1.656953] (-) TimerEvent: {}
+[1.766460] (-) TimerEvent: {}
+[1.875340] (-) TimerEvent: {}
+[1.981807] (-) TimerEvent: {}
+[2.117514] (-) TimerEvent: {}
+[2.231250] (-) TimerEvent: {}
+[2.358713] (-) TimerEvent: {}
+[2.534205] (-) TimerEvent: {}
+[2.645946] (-) TimerEvent: {}
+[2.766514] (-) TimerEvent: {}
+[2.876076] (-) TimerEvent: {}
+[2.990296] (-) TimerEvent: {}
+[3.100405] (-) TimerEvent: {}
+[3.228056] (-) TimerEvent: {}
+[3.348499] (-) TimerEvent: {}
+[3.457808] (-) TimerEvent: {}
+[3.563621] (-) TimerEvent: {}
+[3.694434] (-) TimerEvent: {}
+[3.806681] (-) TimerEvent: {}
+[3.917446] (-) TimerEvent: {}
+[4.032379] (-) TimerEvent: {}
+[4.149282] (-) TimerEvent: {}
+[4.258919] (-) TimerEvent: {}
+[4.423105] (-) TimerEvent: {}
+[4.539011] (-) TimerEvent: {}
+[4.663156] (-) TimerEvent: {}
+[4.785905] (-) TimerEvent: {}
+[4.889886] (-) TimerEvent: {}
+[4.918749] (mobile_dd_robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.996537] (-) TimerEvent: {}
+[5.154223] (-) TimerEvent: {}
+[5.263652] (-) TimerEvent: {}
+[5.397192] (-) TimerEvent: {}
+[5.531471] (-) TimerEvent: {}
+[5.645979] (-) TimerEvent: {}
+[5.770126] (-) TimerEvent: {}
+[5.961669] (-) TimerEvent: {}
+[6.166588] (-) TimerEvent: {}
+[6.279554] (-) TimerEvent: {}
+[6.418543] (-) TimerEvent: {}
+[6.524462] (-) TimerEvent: {}
+[6.630845] (-) TimerEvent: {}
+[6.733995] (-) TimerEvent: {}
+[6.849360] (-) TimerEvent: {}
+[6.967590] (-) TimerEvent: {}
+[7.070495] (-) TimerEvent: {}
+[7.180347] (-) TimerEvent: {}
+[7.346936] (-) TimerEvent: {}
+[7.454107] (-) TimerEvent: {}
+[7.571189] (-) TimerEvent: {}
+[7.715669] (-) TimerEvent: {}
+[7.830160] (-) TimerEvent: {}
+[7.957862] (-) TimerEvent: {}
+[8.077678] (-) TimerEvent: {}
+[8.206977] (-) TimerEvent: {}
+[8.317727] (-) TimerEvent: {}
+[8.438472] (-) TimerEvent: {}
+[8.544710] (-) TimerEvent: {}
+[8.567489] (mobile_dd_robot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.648665] (-) TimerEvent: {}
+[8.753000] (-) TimerEvent: {}
+[8.864015] (-) TimerEvent: {}
+[8.981897] (-) TimerEvent: {}
+[9.088077] (-) TimerEvent: {}
+[9.208722] (-) TimerEvent: {}
+[9.326257] (-) TimerEvent: {}
+[9.488129] (-) TimerEvent: {}
+[9.565098] (mobile_dd_robot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.593725] (-) TimerEvent: {}
+[9.708312] (-) TimerEvent: {}
+[9.830964] (-) TimerEvent: {}
+[9.963252] (-) TimerEvent: {}
+[10.087941] (-) TimerEvent: {}
+[10.202672] (-) TimerEvent: {}
+[10.319243] (-) TimerEvent: {}
+[10.433074] (-) TimerEvent: {}
+[10.572951] (-) TimerEvent: {}
+[10.686428] (-) TimerEvent: {}
+[10.803902] (-) TimerEvent: {}
+[10.922918] (-) TimerEvent: {}
+[11.036031] (-) TimerEvent: {}
+[11.152522] (-) TimerEvent: {}
+[11.264949] (-) TimerEvent: {}
+[11.391401] (-) TimerEvent: {}
+[11.504308] (-) TimerEvent: {}
+[11.607308] (-) TimerEvent: {}
+[11.643497] (mobile_dd_robot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[11.721952] (mobile_dd_robot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.722216] (-) TimerEvent: {}
+[11.744991] (mobile_dd_robot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[11.793396] (mobile_dd_robot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.841427] (-) TimerEvent: {}
+[11.952004] (mobile_dd_robot) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.952330] (-) TimerEvent: {}
+[12.056481] (-) TimerEvent: {}
+[12.181750] (-) TimerEvent: {}
+[12.292412] (-) TimerEvent: {}
+[12.395415] (-) TimerEvent: {}
+[12.507347] (-) TimerEvent: {}
+[12.611295] (mobile_dd_robot) StdoutLine: {'line': b'-- Generating done\n'}
+[12.612362] (-) TimerEvent: {}
+[12.720075] (-) TimerEvent: {}
+[12.823458] (-) TimerEvent: {}
+[12.852730] (mobile_dd_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/build/mobile_dd_robot\n'}
+[12.924746] (-) TimerEvent: {}
+[13.037781] (-) TimerEvent: {}
+[13.172000] (-) TimerEvent: {}
+[13.338092] (-) TimerEvent: {}
+[13.453805] (-) TimerEvent: {}
+[13.577149] (-) TimerEvent: {}
+[13.689774] (-) TimerEvent: {}
+[13.791154] (-) TimerEvent: {}
+[13.911071] (-) TimerEvent: {}
+[13.969265] (mobile_dd_robot) CommandEnded: {'returncode': 0}
+[14.007329] (mobile_dd_robot) JobProgress: {'identifier': 'mobile_dd_robot', 'progress': 'install'}
+[14.012821] (-) TimerEvent: {}
+[14.129018] (-) TimerEvent: {}
+[14.265179] (mobile_dd_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ueux/Desktop/ROS2Humble/ddmobile_ws/build/mobile_dd_robot'], 'cwd': '/home/ueux/Desktop/ROS2Humble/ddmobile_ws/build/mobile_dd_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ueux'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim/lib:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ueux'), ('OLDPWD', '/home/ueux/Desktop/ROS2Humble/ddmobile_ws/src/mobile_dd_robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2534'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ueux/Desktop/ROS2Humble/basic_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ueux'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ueux'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ueux:@/tmp/.ICE-unix/2499,unix/ueux:/tmp/.ICE-unix/2499'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/20d5e28d_ec33_4714_a1c0_8dcc790e5ff0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XEYD22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim:/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ueux/Desktop/ROS2Humble/ddmobile_ws/build/mobile_dd_robot'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_controller:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/lib/python3.10/site-packages:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim:/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlebot3:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_package:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py:/opt/ros/humble')]), 'shell': False}
+[14.408896] (-) TimerEvent: {}
+[14.515243] (-) TimerEvent: {}
+[14.623134] (-) TimerEvent: {}
+[14.746152] (mobile_dd_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.761311] (-) TimerEvent: {}
+[14.789329] (mobile_dd_robot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.824990] (mobile_dd_robot) StdoutLine: {'line': b'-- Symlinking: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/launch/gazebo_model.launch.py\n'}
+[14.865521] (-) TimerEvent: {}
+[14.977072] (-) TimerEvent: {}
+[15.013282] (mobile_dd_robot) StdoutLine: {'line': b'-- Symlinking: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/model/robot.gazebo.xacro\n'}
+[15.084410] (-) TimerEvent: {}
+[15.188953] (-) TimerEvent: {}
+[15.245419] (mobile_dd_robot) StdoutLine: {'line': b'-- Symlinking: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/model/robot.xacro\n'}
+[15.290702] (-) TimerEvent: {}
+[15.389295] (mobile_dd_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/ament_index/resource_index/package_run_dependencies/mobile_dd_robot\n'}
+[15.400453] (-) TimerEvent: {}
+[15.411938] (mobile_dd_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/ament_index/resource_index/parent_prefix_path/mobile_dd_robot\n'}
+[15.441298] (mobile_dd_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/environment/ament_prefix_path.sh\n'}
+[15.459730] (mobile_dd_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/environment/ament_prefix_path.dsv\n'}
+[15.460555] (mobile_dd_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/environment/path.sh\n'}
+[15.486794] (mobile_dd_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/environment/path.dsv\n'}
+[15.488781] (mobile_dd_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/local_setup.bash\n'}
+[15.512261] (mobile_dd_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/local_setup.sh\n'}
+[15.514344] (-) TimerEvent: {}
+[15.525966] (mobile_dd_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/local_setup.zsh\n'}
+[15.526327] (mobile_dd_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/local_setup.dsv\n'}
+[15.549388] (mobile_dd_robot) StdoutLine: {'line': b'-- Symlinking: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/package.dsv\n'}
+[15.622550] (-) TimerEvent: {}
+[15.737468] (-) TimerEvent: {}
+[15.847309] (-) TimerEvent: {}
+[15.946842] (mobile_dd_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/ament_index/resource_index/packages/mobile_dd_robot\n'}
+[15.947161] (mobile_dd_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/cmake/mobile_dd_robotConfig.cmake\n'}
+[15.947229] (mobile_dd_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/cmake/mobile_dd_robotConfig-version.cmake\n'}
+[15.947287] (mobile_dd_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/package.xml\n'}
+[15.947337] (-) TimerEvent: {}
+[16.027042] (mobile_dd_robot) CommandEnded: {'returncode': 0}
+[16.053585] (-) TimerEvent: {}
+[16.159202] (-) TimerEvent: {}
+[16.293256] (-) TimerEvent: {}
+[16.439643] (-) TimerEvent: {}
+[16.543934] (-) TimerEvent: {}
+[16.707071] (-) TimerEvent: {}
+[16.908873] (mobile_dd_robot) JobEnded: {'identifier': 'mobile_dd_robot', 'rc': 0}
+[16.995415] (-) TimerEvent: {}
+[16.996606] (-) EventReactorShutdown: {}

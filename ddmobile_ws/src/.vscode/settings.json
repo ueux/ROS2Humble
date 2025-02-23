@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_controller",
+        "/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py",
+        "/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/lib/python3.10/site-packages",
+        "/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ueux/Desktop/ROS2Humble/basic_ws/build/my_robot_controller",
+        "/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/ueux/Desktop/ROS2Humble/basic_ws/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/home/ueux/Desktop/ROS2Humble/basic_ws/build/action_py",
+        "/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py/lib/python3.10/site-packages",
+        "/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

@@ -1,0 +1,34 @@
+[0.767s] Invoking command in '/home/ueux/Desktop/ROS2Humble/ddmobile_ws/build/mobile_dd_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py:/opt/ros/humble /usr/bin/cmake --build /home/ueux/Desktop/ROS2Humble/ddmobile_ws/build/mobile_dd_robot -- -j8 -l8
+[4.914s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.567s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.563s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.630s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.708s] -- Added test 'lint_cmake' to check CMake code style
+[11.761s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.779s] -- Added test 'xmllint' to check XML markup files
+[11.938s] -- Configuring done
+[12.598s] -- Generating done
+[12.844s] -- Build files have been written to: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/build/mobile_dd_robot
+[13.984s] Invoked command in '/home/ueux/Desktop/ROS2Humble/ddmobile_ws/build/mobile_dd_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py:/opt/ros/humble /usr/bin/cmake --build /home/ueux/Desktop/ROS2Humble/ddmobile_ws/build/mobile_dd_robot -- -j8 -l8
+[14.372s] Invoking command in '/home/ueux/Desktop/ROS2Humble/ddmobile_ws/build/mobile_dd_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py:/opt/ros/humble /usr/bin/cmake --install /home/ueux/Desktop/ROS2Humble/ddmobile_ws/build/mobile_dd_robot
+[14.747s] -- Install configuration: ""
+[14.785s] -- Execute custom install script
+[14.813s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/launch/gazebo_model.launch.py
+[15.005s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/model/robot.gazebo.xacro
+[15.241s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/model/robot.xacro
+[15.375s] -- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/ament_index/resource_index/package_run_dependencies/mobile_dd_robot
+[15.404s] -- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/ament_index/resource_index/parent_prefix_path/mobile_dd_robot
+[15.427s] -- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/environment/ament_prefix_path.sh
+[15.446s] -- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/environment/ament_prefix_path.dsv
+[15.446s] -- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/environment/path.sh
+[15.474s] -- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/environment/path.dsv
+[15.474s] -- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/local_setup.bash
+[15.498s] -- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/local_setup.sh
+[15.512s] -- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/local_setup.zsh
+[15.512s] -- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/local_setup.dsv
+[15.535s] -- Symlinking: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/package.dsv
+[15.933s] -- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/ament_index/resource_index/packages/mobile_dd_robot
+[15.933s] -- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/cmake/mobile_dd_robotConfig.cmake
+[15.933s] -- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/cmake/mobile_dd_robotConfig-version.cmake
+[15.933s] -- Up-to-date symlink: /home/ueux/Desktop/ROS2Humble/ddmobile_ws/install/mobile_dd_robot/share/mobile_dd_robot/package.xml
+[16.039s] Invoked command in '/home/ueux/Desktop/ROS2Humble/ddmobile_ws/build/mobile_dd_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ueux/Desktop/ROS2Humble/basic_ws/install/my_robot_controller:/home/ueux/Desktop/ROS2Humble/basic_ws/install/action_py:/opt/ros/humble /usr/bin/cmake --install /home/ueux/Desktop/ROS2Humble/ddmobile_ws/build/mobile_dd_robot
